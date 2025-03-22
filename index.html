@@ -4,15 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rosario Sapienza - Ingegneria e Consulenza Strategica</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 40px 30px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+    }
+    h1 {
+      color: #1f3a93;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+    .section {
+      margin-bottom: 35px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .tags span {
+      display: inline-block;
+      background-color: #1f3a93;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 30px;
+      margin: 6px 6px 0 0;
+      font-size: 13px;
+    }
+    .contact-line {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .contact-line::before {
+      content: "\1F4CD  "; /* 📍 */
+      display: inline-block;
+      margin-right: 6px;
+    }
+    .contact-line.phone::before { content: "\1F4DE  "; } /* 📞 */
+    .contact-line.email::before { content: "\2709\FE0F  "; } /* ✉️ */
+    .contact-line.piva::before { content: "\1F4B0  "; } /* 💰 */
+    .contact-line.linkedin::before { content: "\1F465  "; } /* 👥 */
+    .contact-line.pinterest::before { content: "\1F4D1  "; } /* 📑 */
+    .qr-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .qr-section img {
+      width: 150px;
+      height: 150px;
+    }
+    .qr-section p {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <h1>Rosario Sapienza</h1>
-  <p>🎯 Attività: Ingegneria e consulenza strategica per imprese</p>
-  <p><strong>Sede:</strong> V. Filippo Turati, 30, 20121, Milano</p>
-  <p><strong>Telefono:</strong> <a href="tel:+393405608103">340 560 8103</a></p>
-  <p><strong>Email:</strong> <a href="mailto:sapienzar@hotmail.it">sapienzar@hotmail.it</a></p>
-  <p><strong>P.IVA:</strong> 06176830872</p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rosario-s-b832a858/">linkedin.com/in/rosario-s-b832a858</a></p>
-  <p><strong>Pinterest:</strong> <a href="https://it.pinterest.com/rosariosapienza88/_pins/">pinterest.com/rosariosapienza88</a></p>
+  <div class="container">
+    <h1>Rosario Sapienza</h1>
+    <div class="subtitle">🎯 Attività: Ingegneria e consulenza strategica per imprese</div>
+
+    <div class="section">
+      <div class="contact-line">Sede: V. Filippo Turati, 30, 20121, Milano</div>
+      <div class="contact-line phone">Telefono: <a href="tel:+393405608103">340 560 8103</a></div>
+      <div class="contact-line email">Email: <a href="mailto:sapienzar@hotmail.it">sapienzar@hotmail.it</a></div>
+      <div class="contact-line piva">P.IVA: 06176830872</div>
+      <div class="contact-line linkedin">LinkedIn: <a href="https://www.linkedin.com/in/rosario-s-b832a858/" target="_blank">linkedin.com/in/rosario-s-b832a858</a></div>
+      <div class="contact-line pinterest">Pinterest: <a href="https://it.pinterest.com/rosariosapienza88/_pins/" target="_blank">pinterest.com/rosariosapienza88</a></div>
+    </div>
+
+    <div class="section">
+      <h2>🛠️ Servizi Offerti</h2>
+      <ul>
+        <li>🏗️ Ingegneria Civile e Strutturale</li>
+        <li>🛡️ Sicurezza sul Lavoro (DL, CSP, CSE)</li>
+        <li>♻️ Certificazioni Energetiche e APE</li>
+        <li>📏 Stime Tecniche e Perizie</li>
+        <li>🤝 Assistenza per Subappaltatori</li>
+        <li>📄 Gare d'Appalto e Documentazione Tecnica</li>
+      </ul>
+    </div>
+
+    <div class="section tags">
+      <h3>🔖 Tag</h3>
+      <span>#Ingegneria</span>
+      <span>#Sicurezza</span>
+      <span>#Energia</span>
+      <span>#APE</span>
+      <span>#GareAppalto</span>
+      <span>#Subappalti</span>
+      <span>#Perizie</span>
+    </div>
+
+    <div class="qr-section">
+      <img src="qr_rosario_updated.png" alt="QR Code">
+      <p>Scansiona il QR code per aprire questa pagina o salvare i contatti.</p>
+    </div>
+  </div>
 </body>
 </html>
